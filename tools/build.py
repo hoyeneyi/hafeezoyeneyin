@@ -158,14 +158,14 @@ PROJECTS = [
         "accent": "#C9A84C",
         "client_class": "cl-nextgen",
         "tagline": "A tutoring platform that shows parents precisely where the learning gap lies.",
-        "card": "My own tutoring company. An interactive skill map leads the homepage, supported by bookings, payments and student dashboards.",
+        "card": "An in-house venture. An interactive skill map leads the homepage, supported by bookings, payments and student dashboards.",
         "built_short": [
             "Interactive prerequisite map",
             "Session packages with online checkout",
             "Student accounts, homework and progress reports",
         ],
         "brief": [
-            "NextGen Tutoring is my own company. Where most tutoring guesses at the problem, NextGen maps every math skill to the skills beneath it, tracing a seventh grader's trouble with ratios back to the fraction gap actually responsible.",
+            "NextGen Tutoring is an in-house venture of the studio. Where most tutoring guesses at the problem, NextGen maps every math skill to the skills beneath it, tracing a seventh grader's trouble with ratios back to the fraction gap actually responsible.",
             "The site had to make that idea clear within seconds to a parent encountering it for the first time, then run the business behind it: bookings, payments, homework and progress reporting.",
         ],
         "features": [
@@ -602,7 +602,7 @@ def page_home(pv):
         <span class="line"><span>Websites, crafted</span></span>
         <span class="line"><span>with <em>intention.</em></span></span>
       </h1>
-      <p class="lede">I design and engineer bespoke websites for businesses, nonprofits and founders. Every site is fast, distinctive and entirely yours, with no templates and no platform fees.</p>
+      <p class="lede">Bespoke websites, designed and engineered for businesses, nonprofits and founders. Every site is fast, distinctive and entirely yours, with no templates and no platform fees.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="contact.html">Start a project <span class="arr" aria-hidden="true">→</span></a>
         <a class="btn" href="work.html">View the work</a>
@@ -869,18 +869,18 @@ def page_about(pv):
     pr = "".join(f'<article class="principle reveal"><h3>{E(t)}</h3><p>{E(d)}</p></article>' for t, d in principles)
     stack = ["HTML", "CSS", "JavaScript", "Firebase", "Firestore", "Cloudflare Workers", "Cloudflare R2", "Stripe", "GitHub Pages", "Formspree", "Claude API"]
     st = "".join(f"<li>{E(s)}</li>" for s in stack)
-    return head("About | Hafeez Oyeneyin", "A direct line to the builder: how I design and engineer bespoke websites.", "about.html", pv) + header("about.html") + f"""
+    return head("About | Hafeez Oyeneyin", "A direct line to the builder: how bespoke websites are designed and engineered here.", "about.html", pv) + header("about.html") + f"""
 <main id="main">
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">About</p>
       <h1 class="display">A direct line to <em>the builder</em></h1>
-      <p class="intro">I'm Hafeez, a software engineer. I design and engineer every site personally, and you work directly with me from the first conversation through launch and beyond, wherever you're based.</p>
+      <p class="intro">Every site is designed and engineered personally by Hafeez Oyeneyin, a software engineer. Clients work directly with the person building their site, from the first conversation through launch and beyond, wherever they're based.</p>
     </div>
   </section>
   <section class="section">
     <div class="wrap">
-      <div class="section-head reveal"><div><p class="eyebrow">Principles</p><h2 class="display">How I <em>work</em></h2></div></div>
+      <div class="section-head reveal"><div><p class="eyebrow">Principles</p><h2 class="display">The <em>approach</em></h2></div></div>
       <div class="principles">{pr}</div>
     </div>
   </section>

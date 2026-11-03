@@ -279,13 +279,13 @@
       var name = form.elements.name.value.trim(), addr = form.elements.email.value.trim();
       if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(addr)) {
         status.classList.add("err");
-        status.textContent = "Add your name and a valid email so I can reply.";
+        status.textContent = "Please add your name and a valid email address so a reply can reach you.";
         (name ? form.elements.email : form.elements.name).focus();
         return;
       }
       if (FORM_ENDPOINT.indexOf("YOUR_FORM_ID") !== -1) {
         status.classList.add("err");
-        status.textContent = "This form isn't connected yet. Email " + email + " and I'll reply directly.";
+        status.textContent = "This form isn't connected yet. Email " + email + " for a direct reply.";
         return;
       }
       submit.disabled = true; status.textContent = "Sending…";
@@ -297,7 +297,7 @@
         })
         .catch(function () {
           status.classList.add("err");
-          status.textContent = "That didn't go through. Email " + email + " and I'll reply directly.";
+          status.textContent = "That didn't go through. Email " + email + " for a direct reply.";
         })
         .finally(function () { submit.disabled = false; });
     });
