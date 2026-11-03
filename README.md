@@ -36,7 +36,6 @@ Quotes appear on the case study and in a "In their words" section on the homepag
 
 ## Before launch
 
-- [ ] **Gmail:** set `CONFIG["email"]` to your new address and rebuild.
 - [ ] **Form:** create a form at formspree.io pointed at that Gmail, paste the endpoint into `FORM_ENDPOINT` in `assets/site.js`.
 - [ ] **Tipsy Trail HTTPS:** tipsytrailbc.com currently fails on `https://` (certificate doesn't match). In the `tipsytrailbc` repo: Settings → Pages → remove the custom domain, save, add it back, wait for the certificate, then tick **Enforce HTTPS**. After that, in `tools/build.py` change its `url` to `https://tipsytrailbc.com/` and `live` to `True`, and rebuild.
 - [ ] **Client OK:** confirm each client is fine being featured (especially the festival, which is pre-launch).

@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # ============================ CONFIG ============================
 CONFIG = {
     "site_url": "https://hafeezoyeneyin.com",
-    "email": "oyeneyinhafeez@gmail.com",
+    "email": "hello@hafeezoyeneyin.com",     # forwards to oyeneyinhafeez@gmail.com (Namecheap email forwarding)
     "phone": "(734) 552-5832",
     "business": "Oyeneyin Solutions LLC",
 }
@@ -362,7 +362,16 @@ def head(title, desc, path, preview=False):
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canon}">
+<meta property="og:site_name" content="Hafeez Oyeneyin">
+<meta property="og:image" content="{CONFIG['site_url']}/assets/brand/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hafeez Oyeneyin: websites, built from scratch.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{CONFIG['site_url']}/assets/brand/og-image.png">
 <link rel="icon" href="{FAVICON}">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
