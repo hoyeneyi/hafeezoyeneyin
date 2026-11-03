@@ -293,7 +293,7 @@
         .then(function (res) {
           if (!res.ok) throw new Error("bad status");
           form.reset(); status.classList.add("ok");
-          status.textContent = "Sent. I'll be in touch within two business days.";
+          status.textContent = "Thank you. Your inquiry has been received, and you'll hear back within two business days.";
         })
         .catch(function () {
           status.classList.add("err");

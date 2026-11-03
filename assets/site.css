@@ -117,7 +117,7 @@ a { color: inherit; }
 .hero .wrap { position: relative; z-index: 2; padding-block: clamp(150px, 19vw, 230px) clamp(90px, 12vw, 160px); }
 .status-pill { display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 10px; border-radius: 999px; border: 1px solid var(--line-2); background: rgba(13,15,20,.7); font-size: .85rem; color: var(--text-2); margin: 0 0 34px; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 .status-pill i { width: 8px; height: 8px; border-radius: 50%; background: #5BE49B; box-shadow: 0 0 0 4px rgba(91,228,155,.15); }
-.hero h1 { font-size: var(--step-4); max-width: 11ch; }
+.hero h1 { font-size: var(--step-4); }
 .hero h1 em { color: var(--accent); }
 .hero h1 .line { display: block; overflow: hidden; padding-bottom: .06em; }
 .hero h1 .line > span { display: inline-block; animation: rise 1s var(--ease) both; }

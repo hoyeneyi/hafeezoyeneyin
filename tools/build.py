@@ -55,12 +55,16 @@ PROJECTS = [
         "tags": "business",
         "accent": "#E8712B",
         "client_class": "cl-courtside",
-        "tagline": "A basketball recruiting brand whose whole site plays like a game broadcast.",
-        "card": "Recruiting help for high school and college players, with a scoreboard theme, clear packages and an owner-run admin panel.",
-        "built_short": ["Scoreboard theme with a running shot clock", "Parent and athlete intake form", "Admin panel for team and testimonials"],
+        "tagline": "A basketball recruiting brand whose entire site plays out like a game broadcast.",
+        "card": "Recruiting guidance for high school and college athletes, presented through a scoreboard-inspired identity, clear packages and an owner-managed admin portal.",
+        "built_short": [
+            "Scoreboard identity with a live shot clock",
+            "Distinct intake paths for parents and athletes",
+            "Owner-managed team and testimonials",
+        ],
         "brief": [
-            "Courtside Connections helps high school and college basketball players get recruited through honest evaluations and real coach relationships, not mass emails.",
-            "They needed a site that felt as serious as the athletes they work with, explained four packages without overwhelming families, and turned visitors into free player profiles. The owner also needed to update the team and testimonials without calling a developer.",
+            "Courtside Connections guides high school and college basketball players through recruiting with honest evaluations and real coach relationships, never mass emails.",
+            "The site needed to carry the seriousness of the athletes it represents, present four packages without overwhelming families, and convert visitors into free player profiles, while giving the owner full control over the team and testimonials.",
         ],
         "features": [
             "Scoreboard-style homepage with a running shot clock",
@@ -73,12 +77,20 @@ PROJECTS = [
             "Coverage of every level, from NCAA D1 to JUCO and NAIA",
         ],
         "details": [
-            ("The whole site is a game", "Shot clock, home and away score, quarters for the process, scouting reports for packages and a scorer's table for the form. The theme does the explaining."),
-            ("Two front doors", "Parents and athletes start from separate buttons, so each sees the questions that fit them: grad year, position and a film link for athletes."),
-            ("Owner-run", "Team members and testimonials are edited from a private admin panel. Changes go through a secure worker, so nothing sensitive sits in the page."),
+            ("The site is the game", "A shot clock, a home-and-away scoreboard, four quarters for the process, scouting reports for packages and a scorer's table for the form. The theme carries the explanation."),
+            ("Two front doors", "Parents and athletes enter through separate paths, each asked only what matters to them, from graduation year to position and game film."),
+            ("Owner-managed", "Team members and testimonials are updated from a private admin portal. Every change passes through a secure server, so nothing sensitive lives in the page."),
         ],
-        "palette": [("#E8712B", "Court orange"), ("#D4A017", "Gold"), ("#0C1526", "Night navy"), ("#FAF6EE", "Chalk")],
-        "fonts": [("Barlow Condensed", "'Barlow Condensed', sans-serif", "MAKE IT TO THE NEXT LEVEL", "800", "uppercase"), ("Caveat", "'Caveat', cursive", "Coach's notes", "600", "none")],
+        "palette": [
+            ("#E8712B", "Court orange"),
+            ("#D4A017", "Gold"),
+            ("#0C1526", "Night navy"),
+            ("#FAF6EE", "Chalk"),
+        ],
+        "fonts": [
+            ("Barlow Condensed", "'Barlow Condensed', sans-serif", "MAKE IT TO THE NEXT LEVEL", "800", "uppercase"),
+            ("Caveat", "'Caveat', cursive", "Coach's notes", "600", "none"),
+        ],
         "stack": "HTML/CSS/JS · Cloudflare Workers + R2 · Firebase",
         "scope": "Design, build, admin panel, video hosting",
         "spec": {"sample": "3%", "font": "'Barlow Condensed', sans-serif", "bg": "#0C1526", "fg": "#E8712B", "size": "5.5rem", "weight": "800", "case": "uppercase"},
@@ -95,12 +107,16 @@ PROJECTS = [
         "accent": "#FDD10A",
         "client_class": "cl-ascf",
         "client_label": "Spring Canvas Festival",
-        "tagline": "A festival two years away, with a site that makes it feel inevitable.",
-        "card": "A four-day festival built around food, art, music and conflict resolution. Phase 1 is live; ticketing comes next.",
-        "built_short": ["Live countdown to opening day", "Multi-page site for every part of the festival", "Sponsor, vendor and exhibitor sign-ups"],
+        "tagline": "A festival two years from opening, with a site that makes it feel inevitable.",
+        "card": "A four-day festival uniting food, art, music and conflict resolution. Phase one is live; ticketing follows.",
+        "built_short": [
+            "Live countdown to opening day",
+            "Multi-page site spanning every part of the festival",
+            "Sponsor, vendor and exhibitor applications",
+        ],
         "brief": [
             "America's Spring Canvas Festival is a four-day festival planned for Memorial Day weekend 2028, built around food, art, music, competition and a year-round conflict-resolution campaign.",
-            "Two years out, the site has to win over sponsors, exhibitors, vendors and an audience for an event nobody has seen yet. It also has to grow into ticketing and registration later without being rebuilt.",
+            "Two years out, the site must win over sponsors, exhibitors, vendors and an audience for an event no one has yet experienced, then grow into ticketing and registration without a rebuild.",
         ],
         "features": [
             "Multi-page site: mission, food, arts, entertainment, attractions and news",
@@ -113,12 +129,19 @@ PROJECTS = [
             "Phase 2 in progress: ticketing and registration built to scale",
         ],
         "details": [
-            ("History as the pitch", "Super Bowl XVI, WrestleMania III and the 1994 World Cup all happened in Pontiac. The timeline puts 2028 next to them, which sells the ambition in one glance."),
-            ("Urgency without a ticket", "There's nothing to buy yet, so the countdown and the update sign-up do the work a ticket button normally would."),
-            ("Built in phases", "Phase 1 gets the festival public and collecting sponsors now. Ticketing plugs into the same site later instead of starting over."),
+            ("History as the pitch", "Super Bowl XVI, WrestleMania III and the 1994 World Cup all came to Pontiac. Placing 2028 beside them conveys the ambition at a glance."),
+            ("Momentum before tickets", "With nothing yet to sell, the countdown and update sign-up carry the momentum a ticket button ordinarily would."),
+            ("Built in phases", "Phase one brings the festival to the public and secures sponsors now. Ticketing joins the same foundation later, with no need to start over."),
         ],
-        "palette": [("#FDD10A", "Canvas yellow"), ("#0E1618", "Stage black"), ("#FFFFFF", "White")],
-        "fonts": [("Oswald", "'Oswald', sans-serif", "THE CANVAS OPENS IN", "700", "uppercase"), ("Poppins", "'Poppins', sans-serif", "Four days · Eight stages", "600", "none")],
+        "palette": [
+            ("#FDD10A", "Canvas yellow"),
+            ("#0E1618", "Stage black"),
+            ("#FFFFFF", "White"),
+        ],
+        "fonts": [
+            ("Oswald", "'Oswald', sans-serif", "THE CANVAS OPENS IN", "700", "uppercase"),
+            ("Poppins", "'Poppins', sans-serif", "Four days · Eight stages", "600", "none"),
+        ],
         "stack": "HTML/CSS/JS · Firebase",
         "scope": "Design, multi-page build, forms, admin",
         "spec": {"sample": "2028", "font": "'Oswald', sans-serif", "bg": "#FDD10A", "fg": "#0E1618", "size": "4.6rem", "weight": "700", "case": "uppercase"},
@@ -134,12 +157,16 @@ PROJECTS = [
         "tags": "platform business",
         "accent": "#C9A84C",
         "client_class": "cl-nextgen",
-        "tagline": "A tutoring platform that shows parents exactly where the learning gap is.",
-        "card": "My own tutoring company. An interactive skill map on the homepage, with bookings, payments and student dashboards behind it.",
-        "built_short": ["Interactive prerequisite map", "Session packs with online checkout", "Student accounts, homework and progress reports"],
+        "tagline": "A tutoring platform that shows parents precisely where the learning gap lies.",
+        "card": "My own tutoring company. An interactive skill map leads the homepage, supported by bookings, payments and student dashboards.",
+        "built_short": [
+            "Interactive prerequisite map",
+            "Session packages with online checkout",
+            "Student accounts, homework and progress reports",
+        ],
         "brief": [
-            "NextGen Tutoring is my own company. Most tutoring guesses at the problem. NextGen maps every math skill to the skills beneath it, so a 7th grader stuck on ratios gets traced back to the fraction gap that's actually causing it.",
-            "The site had to make that idea obvious in seconds to a parent who has never heard of it, then run the business behind it: bookings, payments, homework and progress reports.",
+            "NextGen Tutoring is my own company. Where most tutoring guesses at the problem, NextGen maps every math skill to the skills beneath it, tracing a seventh grader's trouble with ratios back to the fraction gap actually responsible.",
+            "The site had to make that idea clear within seconds to a parent encountering it for the first time, then run the business behind it: bookings, payments, homework and progress reporting.",
         ],
         "features": [
             "Interactive prerequisite map: tap any skill to see what it depends on",
@@ -152,12 +179,20 @@ PROJECTS = [
             "AI-generated practice tied to the skill map",
         ],
         "details": [
-            ("The product is the hero", "Instead of a stock photo of a smiling student, the homepage opens on the actual skill map. Parents see how it works before they read a word."),
-            ("Pricing with no fine print", "Three clear packs, the per-session math shown, and the first session free. Nothing auto-renews."),
-            ("It runs the business", "Behind the marketing site are accounts, payments, homework delivery and reports, all on the same stack."),
+            ("The product leads", "Rather than a stock photograph, the homepage opens on the skill map itself. Parents understand the method before reading a word."),
+            ("Transparent pricing", "Three clear packages, per-session pricing shown openly and a complimentary first session. Nothing renews automatically."),
+            ("It runs the business", "Beneath the public site sit accounts, payments, homework delivery and reporting, all on a single, cohesive stack."),
         ],
-        "palette": [("#C9A84C", "Gold"), ("#FBF7EC", "Paper"), ("#F1EBDC", "Sand"), ("#1C1A16", "Ink")],
-        "fonts": [("Fraunces", "'Fraunces', serif", "See exactly where the gap is.", "600", "none"), ("Instrument Sans", "'Instrument Sans', sans-serif", "Diagnose · Plan · Close the gap", "700", "none")],
+        "palette": [
+            ("#C9A84C", "Gold"),
+            ("#FBF7EC", "Paper"),
+            ("#F1EBDC", "Sand"),
+            ("#1C1A16", "Ink"),
+        ],
+        "fonts": [
+            ("Fraunces", "'Fraunces', serif", "See exactly where the gap is.", "600", "none"),
+            ("Instrument Sans", "'Instrument Sans', sans-serif", "Diagnose · Plan · Close the gap", "700", "none"),
+        ],
         "stack": "HTML/CSS/JS · Firebase Auth + Firestore · Cloudflare Workers · Stripe · Claude API",
         "scope": "Product, design, full platform build",
         "spec": {"sample": "the gap", "font": "'Fraunces', serif", "bg": "#FBF7EC", "fg": "#1C1A16", "size": "3.4rem", "weight": "600", "case": "none", "italic": True},
@@ -175,11 +210,11 @@ PROJECTS = [
         "client_class": "cl-timber",
         "client_label": "Timber & Forge",
         "tagline": "A maker's story, told the way the work is made: by hand, with nothing hidden.",
-        "card": "Custom tables, shelves and signs from reclaimed wood, steel and resin. A story-led site that turns interest into quote requests.",
-        "built_short": ["Story-led homepage", "Four-step process with deposit and lead time up front", "Quote request form"],
+        "card": "Custom tables, shelving and signage from reclaimed wood, steel and resin. A story-led site that turns admiration into qualified inquiries.",
+        "built_short": ["Story-led homepage", "Lead time and deposit stated up front", "Quote request flow"],
         "brief": [
-            "Timber & Forge Creations builds custom tables, shelves and signs from reclaimed wood, steel and epoxy resin. Every piece is one of a kind.",
-            "The site needed to carry the story behind the work, set honest expectations about time and cost, and turn that interest into qualified quote requests instead of price-shopping messages.",
+            "Timber & Forge Creations crafts custom tables, shelving and signage from reclaimed wood, steel and epoxy resin. Every piece is one of a kind.",
+            "The site needed to convey the story behind the work, set honest expectations around time and investment, and turn that interest into qualified quote requests rather than price-shopping messages.",
         ],
         "features": [
             "Story-led homepage built around the shop's philosophy",
@@ -191,12 +226,19 @@ PROJECTS = [
             "Quote request form with a 1–2 business day reply promise",
         ],
         "details": [
-            ("Expectations up front", "\"15–30 days, 50% deposit\" sits right under the first button. People who reach out already know how this works."),
-            ("Story first", "The \"perfectly imperfect\" philosophy carries the page, which is what sets a hand-built table apart from a catalog one."),
-            ("Instagram stays the gallery", "New pieces go up on Instagram already. The site points there, so the portfolio never goes stale."),
+            ("Expectations, stated plainly", "A 15–30 day lead time and 50% deposit sit directly beneath the first button, so every inquiry arrives already informed."),
+            ("Story first", "The “perfectly imperfect” philosophy carries the page, which is precisely what distinguishes a handmade table from a catalog one."),
+            ("Instagram as the living gallery", "New pieces are already shared on Instagram. The site points there, so the portfolio never grows stale."),
         ],
-        "palette": [("#0E1B2A", "Forge navy"), ("#C98B4F", "Walnut (accent)"), ("#FFFFFF", "White"), ("#F2FCFC", "Mist")],
-        "fonts": [("Inter", "'Inter', sans-serif", "Built to last.", "800", "none")],
+        "palette": [
+            ("#0E1B2A", "Forge navy"),
+            ("#C98B4F", "Walnut (accent)"),
+            ("#FFFFFF", "White"),
+            ("#F2FCFC", "Mist"),
+        ],
+        "fonts": [
+            ("Inter", "'Inter', sans-serif", "Built to last.", "800", "none"),
+        ],
         "stack": "HTML/CSS/JS · GitHub Pages",
         "scope": "Design, copy structure, build",
         "spec": {"sample": "Built to last.", "font": "'Inter', sans-serif", "bg": "#0E1B2A", "fg": "#C98B4F", "size": "2.6rem", "weight": "800", "case": "none", "track": "-0.03em"},
@@ -213,12 +255,12 @@ PROJECTS = [
         "accent": "#E85DA8",
         "client_class": "cl-tipsy",
         "client_label": "Tipsy Trail",
-        "tagline": "A Dallas bar crawl you can understand and book in under a minute, on your phone.",
-        "card": "Guided bar crawls every Friday and Saturday in Dallas. A phone-first site with a booking calendar that only opens on crawl nights.",
-        "built_short": ["Friday/Saturday-only booking calendar", "Ticket counter with live total", "FAQ and group booking contact"],
+        "tagline": "A Dallas bar crawl that can be understood and booked in under a minute, on a phone.",
+        "card": "Guided bar crawls every Friday and Saturday in Dallas. A mobile-first site with a booking calendar that opens only on crawl nights.",
+        "built_short": ["Friday and Saturday booking calendar", "Ticket selector with live total", "FAQ and private-event inquiries"],
         "brief": [
-            "Tipsy Trail runs guided bar crawls every Friday and Saturday night in Dallas's Bishop Arts District.",
-            "Most visitors arrive on a phone from a social post. The site had to sell the night fast: what it is, what the $40 ticket covers, and how to grab a spot, before they scroll away.",
+            "Tipsy Trail hosts guided bar crawls every Friday and Saturday night in Dallas's Bishop Arts District.",
+            "Most visitors arrive on a phone from a social post. The site had to sell the night quickly: what it is, what the $40 ticket includes and how to reserve a place, before attention moves on.",
         ],
         "features": [
             "Bold, phone-first landing page",
@@ -230,12 +272,20 @@ PROJECTS = [
             "Text and email contact for group and private crawls",
         ],
         "details": [
-            ("Only the right nights", "The calendar only lets people pick Fridays and Saturdays, so nobody books a Tuesday that doesn't exist."),
-            ("Answers before questions", "21+, solo-friendly, no cover and drinks not included are all on the page, which cuts down the DMs."),
-            ("Personality in the type", "A loud, playful display face and hot-pink palette match a night out, not a corporate event."),
+            ("Only the right nights", "The calendar offers Fridays and Saturdays alone, so no one can book an evening that doesn't exist."),
+            ("Answers before questions", "Age requirements, solo guests, cover charges and what's included are all addressed on the page, so fewer questions need to be sent."),
+            ("Personality in the type", "A bold, playful display face and vivid pink palette match the energy of a night out, not a corporate event."),
         ],
-        "palette": [("#E85DA8", "Party pink"), ("#FFF9F5", "Blush"), ("#333333", "Charcoal"), ("#FFFFFF", "White")],
-        "fonts": [("Boogaloo", "'Boogaloo', cursive", "TIPSY TRAIL", "400", "uppercase"), ("Nunito", "'Nunito', sans-serif", "Explore. Sip. Repeat.", "800", "none")],
+        "palette": [
+            ("#E85DA8", "Party pink"),
+            ("#FFF9F5", "Blush"),
+            ("#333333", "Charcoal"),
+            ("#FFFFFF", "White"),
+        ],
+        "fonts": [
+            ("Boogaloo", "'Boogaloo', cursive", "TIPSY TRAIL", "400", "uppercase"),
+            ("Nunito", "'Nunito', sans-serif", "Explore. Sip. Repeat.", "800", "none"),
+        ],
         "stack": "HTML/CSS/JS · GitHub Pages",
         "scope": "Design, booking flow, build",
         "spec": {"sample": "Tipsy", "font": "'Boogaloo', cursive", "bg": "#E85DA8", "fg": "#FFFFFF", "size": "4.4rem", "weight": "400", "case": "none"},
@@ -366,7 +416,7 @@ def head(title, desc, path, preview=False):
 <meta property="og:image" content="{CONFIG['site_url']}/assets/brand/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Hafeez Oyeneyin: websites, built from scratch.">
+<meta property="og:image:alt" content="Hafeez Oyeneyin: websites, crafted with intention.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{CONFIG['site_url']}/assets/brand/og-image.png">
 <link rel="icon" href="{FAVICON}">
@@ -416,7 +466,7 @@ def footer():
   <div class="wrap">
     <div class="foot-top">
       <div>
-        <p class="say">Let's build <em>something good.</em></p>
+        <p class="say">Let's build something <em>remarkable.</em></p>
         <a class="foot-mail" href="mailto:{em}">{em}</a>
       </div>
       <div class="foot-cols">
@@ -436,7 +486,7 @@ def footer():
 """
 
 
-def cta(title="Have a project <em>in mind?</em>", text="Tell me what you're working on. You'll hear back within two business days to set up a free 15-minute call."):
+def cta(title="Begin your <em>project.</em>", text="Share a few details about what you're building. You'll receive a reply within two business days to arrange a complimentary consultation."):
     return f"""<section class="cta" aria-labelledby="cta-title">
   <div class="wrap reveal">
     <h2 class="display" id="cta-title">{title}</h2>
@@ -448,12 +498,12 @@ def cta(title="Have a project <em>in mind?</em>", text="Tell me what you're work
 
 
 SERVICES = [
-    ("Launch", "get online, properly", "A sharp site that makes you look established from day one.",
-     ["1–3 pages, built phone-first", "Contact form sent to your email", "Domain, hosting and launch handled", "Page titles and Google basics set up"], "tipsy-trail"),
-    ("Grow", "room for everything you do", "A fully custom site built around your brand, services and story.",
-     ["Multi-page site designed around your brand", "Two homepage designs to choose from", "Sign-up and inquiry forms sent to the right inbox", "Calendars, booking or social feeds built in"], "timber-and-forge"),
-    ("Platform", "a site that does work for you", "For sites that need to run things: admin portals, accounts, payments.",
-     ["Admin portal so you can edit content yourself", "Registrations, waitlists and member logins", "Online payments and ticketing", "A plain-English guide to running it"], "courtside-connections"),
+    ("Launch", "a polished first impression", "A refined, focused site that establishes credibility from the first visit.",
+     ["One to three pages, designed mobile-first", "Inquiry form delivered to your inbox", "Domain, hosting and launch fully handled", "Search-ready titles and descriptions"], "tipsy-trail"),
+    ("Grow", "a complete brand presence", "A fully bespoke, multi-page site that tells your story and showcases your services.",
+     ["Multi-page site shaped around your brand", "Two homepage concepts to choose between", "Sign-up and inquiry forms routed to the right inbox", "Integrated calendars, booking and social feeds"], "timber-and-forge"),
+    ("Platform", "a site that runs your operations", "For organizations that need more than a website: portals, accounts and payments, built in.",
+     ["Admin portal to manage your own content", "Registrations, waitlists and member logins", "Online payments and ticketing", "A clear, plain-language operating guide"], "courtside-connections"),
 ]
 
 
@@ -474,10 +524,10 @@ def svc_rows(with_examples=False):
 
 
 STEPS = """<ol class="steps" id="steps">
-  <li><h3>Free 15-minute call</h3><p>Tell me what you do, who you want to reach and what the site needs to handle.</p></li>
-  <li><h3>Fixed quote + two designs</h3><p>You get a fixed price, then two homepage directions to pick from.</p></li>
-  <li><h3>Build with a live preview</h3><p>A private link lets you watch the site come together and send feedback.</p></li>
-  <li><h3>Launch + handoff</h3><p>I connect your domain, launch the site and hand you a simple guide.</p></li>
+  <li><h3>Discovery</h3><p>A complimentary 15-minute conversation about your business, your audience and what the site must accomplish.</p></li>
+  <li><h3>Proposal &amp; direction</h3><p>A fixed-price proposal, followed by two distinct homepage concepts to choose between.</p></li>
+  <li><h3>Build &amp; refinement</h3><p>Follow progress on a private preview link and refine the details together as it takes shape.</p></li>
+  <li><h3>Launch &amp; handover</h3><p>Your domain is connected, the site goes live, and you receive a clear guide to managing it.</p></li>
 </ol>"""
 
 
@@ -487,13 +537,13 @@ def faq(items):
 
 
 FAQ_GENERAL = [
-    ("How much does a website cost?", "Every project gets a fixed quote after a free 15-minute call, based on what the site needs to do. You'll know the full price before any work starts, and it won't change unless the scope does."),
-    ("Will I have to pay every month?", "No. Your site is custom-coded, so there's no website-builder subscription to keep paying. The only ongoing cost is your domain name, usually about $10–15 a year. Sites with logins or payments may have small usage-based service costs, which the quote spells out."),
-    ("Can I update the site myself?", "Yes, if you need to. Sites can include an admin portal for editing programs, events, photos and announcements, plus a guide that walks you through it. For simpler sites, send me small text changes and I'll make them at no charge."),
-    ("I already have a website. Can you rebuild it?", "Yes. I'll bring your content over from your current site or website builder, rebuild it properly and move your domain without breaking your email. Keep your current plan running until the new site is live."),
-    ("Do you work with clients outside my area?", "Yes. Everything runs remotely: calls, design reviews and a live preview link you can open from anywhere."),
-    ("How long does it take?", "Most sites take one to three weeks from the first call to launch. Sites with admin portals, accounts or payments take longer, and you'll get a timeline with the quote."),
-    ("How does payment work?", f"Invoices are issued by {CONFIG['business']}, with payment details on each invoice. Anything outside the agreed scope is quoted separately before I start on it."),
+    ("How is a project priced?", "Every project is quoted at a fixed price following a complimentary 15-minute consultation, based on what the site needs to accomplish. You'll know the full investment before work begins, and it changes only if the scope does."),
+    ("Are there ongoing monthly fees?", "No. Because your site is custom-built, there's no website-builder subscription. The only recurring cost is your domain name, typically $10–15 per year. Sites with accounts or payments may carry modest usage-based service fees, which are outlined in your proposal."),
+    ("Can I update the site myself?", "Yes. Sites can include an admin portal for managing programs, events, imagery and announcements, accompanied by a clear guide. On simpler sites, small text changes are handled for you at no charge."),
+    ("I already have a website. Can you rebuild it?", "Yes. Your existing content is carried over from your current site or builder, rebuilt to a higher standard, and your domain is moved without disrupting your email. Keep your current plan active until the new site launches."),
+    ("Do you work with clients remotely?", "Yes. Clients are welcome from anywhere. Consultations, design reviews and a private live preview all take place online."),
+    ("What is the typical timeline?", "Most sites launch within one to three weeks of the initial consultation. Projects with portals, accounts or payments take longer, and a detailed timeline accompanies every proposal."),
+    ("How does payment work?", f"Invoices are issued by {CONFIG['business']}, with payment details included on each. Any work beyond the agreed scope is quoted separately before it begins."),
 ]
 
 
@@ -542,27 +592,27 @@ def page_home(pv):
   <span class="meta"><b>{E(p['name'])}</b>{E(p['fonts'][0][0])}<span class="sw">{sw}</span></span>
 </a>""")
     clients = "".join(f'<li><a class="{p["client_class"]}" href="{page_file(p)}">{E(p.get("client_label", p["name"]))}</a></li>' for p in PROJECTS)
-    return head("Hafeez Oyeneyin | Custom-Coded Websites", "Custom-coded websites for businesses, nonprofits and teams anywhere. No templates, no monthly platform fees.", "index.html", pv) + header("index.html") + f"""
+    return head("Hafeez Oyeneyin | Custom-Coded Websites", "Bespoke websites designed and engineered for businesses, nonprofits and founders. Fast, distinctive and entirely yours.", "index.html", pv) + header("index.html") + f"""
 <main id="main">
   <section class="hero" aria-labelledby="hero-title">
     <canvas id="field" aria-hidden="true"></canvas>
     <div class="wrap">
-      <p class="status-pill"><i aria-hidden="true"></i>Available for new projects</p>
+      <p class="status-pill"><i aria-hidden="true"></i>Accepting new projects</p>
       <h1 id="hero-title" class="display">
-        <span class="line"><span>Websites, built</span></span>
-        <span class="line"><span>from <em>scratch.</em></span></span>
+        <span class="line"><span>Websites, crafted</span></span>
+        <span class="line"><span>with <em>intention.</em></span></span>
       </h1>
-      <p class="lede">I design and code custom websites for businesses, nonprofits and teams. No templates, no monthly platform fees. A fast site that fits you, and you own all of it.</p>
+      <p class="lede">I design and engineer bespoke websites for businesses, nonprofits and founders. Every site is fast, distinctive and entirely yours, with no templates and no platform fees.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="contact.html">Start a project <span class="arr" aria-hidden="true">→</span></a>
-        <a class="btn" href="work.html">See the work</a>
+        <a class="btn" href="work.html">View the work</a>
       </div>
     </div>
   </section>
 
   <section class="clients" aria-label="Clients">
     <div class="wrap">
-      <p>Recent sites, each built from scratch</p>
+      <p>Selected clients</p>
       <div class="client-viewport"><div class="client-track">
         <ul class="client-list">{clients}</ul>
         <ul class="client-list dup" aria-hidden="true">{clients.replace('<a ', '<a tabindex="-1" ')}</ul>
@@ -573,21 +623,21 @@ def page_home(pv):
   <section class="section" aria-labelledby="work-title">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Selected work</p><h2 id="work-title" class="display">Built to do <em>a job</em></h2></div>
-        <p>Each site was designed and coded around what that client actually needed day to day.</p>
+        <div><p class="eyebrow">Selected work</p><h2 id="work-title" class="display">Work that <em>performs</em></h2></div>
+        <p>Every engagement begins with how a client actually operates. The site is then designed and engineered around it.</p>
       </div>
       <div class="feature-list">
         {''.join(feats)}
       </div>
-      <p style="margin-top:80px"><a class="btn" href="work.html">See all {len(PROJECTS)} projects <span class="arr" aria-hidden="true">→</span></a></p>
+      <p style="margin-top:80px"><a class="btn" href="work.html">View all {len(PROJECTS)} projects <span class="arr" aria-hidden="true">→</span></a></p>
     </div>
   </section>
 
   <section class="section" aria-labelledby="look-title">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Identity</p><h2 id="look-title" class="display">Every client gets <em>their own</em> look</h2></div>
-        <p>No shared template. Each site gets its own type, colors and personality, picked to fit the business.</p>
+        <div><p class="eyebrow">Identity</p><h2 id="look-title" class="display">A distinct identity <em>for every client</em></h2></div>
+        <p>Nothing is templated. Typography, color and voice are chosen for each brand, so no two sites look alike.</p>
       </div>
       <div class="specimens reveal">
         {''.join(specs)}
@@ -598,21 +648,21 @@ def page_home(pv):
   <section class="section" aria-labelledby="services-title">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Services</p><h2 id="services-title" class="display">What I build</h2></div>
-        <p>Every project gets a fixed quote after a free call, so you know the full price before any work starts.</p>
+        <div><p class="eyebrow">Services</p><h2 id="services-title" class="display">Services, <em>tailored</em></h2></div>
+        <p>Each engagement is scoped on a complimentary call and priced as a fixed quote, agreed before any work begins.</p>
       </div>
       <div class="svc-list">
         {svc_rows()}
       </div>
-      <p style="margin-top:40px"><a class="link-arrow" href="services.html">Everything I can build <span aria-hidden="true">→</span></a></p>
+      <p style="margin-top:40px"><a class="link-arrow" href="services.html">Explore all services <span aria-hidden="true">→</span></a></p>
     </div>
   </section>
 
   <section class="section" aria-labelledby="process-title">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Process</p><h2 id="process-title" class="display">How a project runs</h2></div>
-        <p>You always know what's happening, what's next and what it costs.</p>
+        <div><p class="eyebrow">Process</p><h2 id="process-title" class="display">A <em>considered</em> process</h2></div>
+        <p>Transparent at every stage: what is happening, what comes next and what it costs.</p>
       </div>
       {STEPS}
     </div>
@@ -639,8 +689,8 @@ def page_work(pv):
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">Work</p>
-      <h1 class="display">Sites that do <em>a job</em></h1>
-      <p class="intro">Every project here is live. Open any one to see the real site running inside the page, exactly as its customers see it.</p>
+      <h1 class="display">Selected <em>work</em></h1>
+      <p class="intro">Every project shown here is live. Open any case study to explore the real site, running exactly as its customers experience it.</p>
     </div>
   </section>
   <section class="section">
@@ -673,7 +723,7 @@ def page_case(p, i, pv):
         q = p["quote"]
         quote = f"""<section class="cs-sec"><div class="wrap cs-grid reveal"><h2><small>client</small>In their words</h2>
 <figure class="big-quote"><blockquote>“{E(q['text'])}”</blockquote><figcaption>{E(q['name'])}, {E(q.get('role', ''))}</figcaption></figure></div></section>"""
-    note = "This is the live site. Scroll and click inside it, or switch to the phone view." if p["live"] else ""
+    note = "This is the live site. Explore it directly, or switch to the mobile view." if p["live"] else ""
     return head(f"{p['name']} | Case study | Hafeez Oyeneyin", p["tagline"], page_file(p), pv) + header("work.html") + f"""
 <main id="main" class="cs" style="--brand:{p['accent']}">
   <section class="cs-hero">
@@ -696,7 +746,7 @@ def page_case(p, i, pv):
       <div class="toolbar">
         <div class="seg" role="group" aria-label="Preview size">
           <button type="button" data-device="desktop" data-target="{fid}" aria-pressed="true">Desktop</button>
-          <button type="button" data-device="phone" data-target="{fid}" aria-pressed="false">Phone</button>
+          <button type="button" data-device="phone" data-target="{fid}" aria-pressed="false">Mobile</button>
         </div>
         <a class="btn" href="{E(p['url'])}" target="_blank" rel="noopener">Visit the live site <span class="arr" aria-hidden="true">↗</span></a>
       </div>
@@ -708,28 +758,28 @@ def page_case(p, i, pv):
 
   <section class="cs-sec">
     <div class="wrap cs-grid reveal">
-      <h2><small>The brief</small>What they needed</h2>
+      <h2><small>Brief</small>The challenge</h2>
       <div class="prose">{brief}</div>
     </div>
   </section>
 
   <section class="cs-sec">
     <div class="wrap cs-grid reveal">
-      <h2><small>The build</small>What I built</h2>
+      <h2><small>Build</small>The solution</h2>
       <ul class="featlist">{feats}</ul>
     </div>
   </section>
 
   <section class="cs-sec">
     <div class="wrap">
-      <div class="cs-grid reveal" style="margin-bottom:48px"><h2><small>Details</small>Worth noticing</h2><div></div></div>
+      <div class="cs-grid reveal" style="margin-bottom:48px"><h2><small>Details</small>Considered details</h2><div></div></div>
       <div class="details">{details}</div>
     </div>
   </section>
 {quote}
   <section class="cs-sec">
     <div class="wrap">
-      <div class="cs-grid reveal" style="margin-bottom:48px"><h2><small>Identity</small>Look and feel</h2><div class="prose"><p style="font-size:1.12rem;color:var(--text-2)">The colors and type chosen for this brand.</p></div></div>
+      <div class="cs-grid reveal" style="margin-bottom:48px"><h2><small>Identity</small>Visual identity</h2><div class="prose"><p style="font-size:1.12rem;color:var(--text-2)">The palette and typography defined for this brand.</p></div></div>
       <div class="look reveal">
         <div class="swatches">{sw}</div>
         <div class="type-spec">{fonts}</div>
@@ -745,18 +795,18 @@ def page_case(p, i, pv):
       </a>
     </div>
   </section>
-{cta("Want a site <em>like this?</em>")}</main>
+{cta("Your site, <em>built to this standard.</em>")}</main>
 """ + footer()
 
 
 def page_services(pv):
     addons = [
-        ("Admin portal", "Edit programs, team members, events and photos yourself, from any device.", "courtside-connections"),
-        ("Bookings + calendars", "Date pickers, event calendars and booking flows that only allow the slots you run.", "tipsy-trail"),
-        ("Sign-up + application forms", "Registrations, vendor and sponsor applications, sent to the right inbox and saved.", "spring-canvas-festival"),
-        ("Online payments", "Checkout for sessions, packages or tickets, with receipts handled for you.", "nextgen-tutoring"),
-        ("Accounts + dashboards", "Member logins with their own dashboard, history and downloads.", "nextgen-tutoring"),
-        ("Moving off a website builder", "Your content brought over, rebuilt properly and your domain moved without breaking email.", None),
+        ("Admin portal", "Update programs, team members, events and imagery yourself, from any device.", "courtside-connections"),
+        ("Bookings + calendars", "Event calendars and booking flows that offer only the times you actually run.", "tipsy-trail"),
+        ("Sign-up + application forms", "Registrations and vendor or sponsor applications, routed to the right inbox and securely stored.", "spring-canvas-festival"),
+        ("Online payments", "Seamless checkout for sessions, packages or tickets, with receipts handled automatically.", "nextgen-tutoring"),
+        ("Accounts + dashboards", "Private member logins with personal dashboards, history and downloads.", "nextgen-tutoring"),
+        ("Migration from a website builder", "Your content carried over and rebuilt properly, with your domain moved and your email left undisturbed.", None),
     ]
     cards = []
     for t, d, slug in addons:
@@ -770,8 +820,8 @@ def page_services(pv):
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">Services</p>
-      <h1 class="display">What I <em>build</em></h1>
-      <p class="intro">From a sharp one-page site to a platform with logins and payments. Every project gets a fixed quote after a free call, with no monthly platform fees, and you own everything.</p>
+      <h1 class="display">Services, <em>tailored</em></h1>
+      <p class="intro">From a refined single page to a full platform with accounts and payments. Every engagement is priced as a fixed quote after a complimentary consultation, with no monthly platform fees and full ownership from day one.</p>
     </div>
   </section>
   <section class="section">
@@ -784,8 +834,8 @@ def page_services(pv):
   <section class="section">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Add-ons</p><h2 class="display">Things your site <em>can do</em></h2></div>
-        <p>Mix these into any project. Each one is already running on a client site.</p>
+        <div><p class="eyebrow">Add-ons</p><h2 class="display">Capabilities, <em>proven live</em></h2></div>
+        <p>Each can be added to any project, and each is already running on a client site today.</p>
       </div>
       <div class="addons">{''.join(cards)}</div>
     </div>
@@ -793,15 +843,15 @@ def page_services(pv):
   <section class="section">
     <div class="wrap">
       <div class="section-head reveal">
-        <div><p class="eyebrow">Process</p><h2 class="display">How a project runs</h2></div>
-        <p>You always know what's happening, what's next and what it costs.</p>
+        <div><p class="eyebrow">Process</p><h2 class="display">A <em>considered</em> process</h2></div>
+        <p>Transparent at every stage: what is happening, what comes next and what it costs.</p>
       </div>
       {STEPS}
     </div>
   </section>
   <section class="section">
     <div class="wrap">
-      <div class="section-head reveal"><div><p class="eyebrow">FAQ</p><h2 class="display">Questions</h2></div></div>
+      <div class="section-head reveal"><div><p class="eyebrow">FAQ</p><h2 class="display">Frequently <em>asked</em></h2></div></div>
       {faq(FAQ_GENERAL)}
     </div>
   </section>
@@ -811,34 +861,34 @@ def page_services(pv):
 
 def page_about(pv):
     principles = [
-        ("Built from scratch", "No themes, no page builders. Every site is designed and coded for the business it belongs to."),
-        ("Yours to keep", "You own the code, the domain and the content. No platform can raise your price or lock you in."),
-        ("Fast on a phone", "Most of your visitors are on a phone. Sites are built for that first and tested on real devices."),
-        ("Straight answers", "A fixed quote before work starts, a timeline you can hold me to, and a heads-up before anything changes scope."),
+        ("Bespoke by default", "No themes and no page builders. Every site is designed and engineered for the business it represents."),
+        ("Full ownership", "The code, the domain and the content are yours. No platform can raise your price or lock you in."),
+        ("Mobile-first performance", "Most visitors arrive on a phone. Every site is built for that experience first and tested on real devices."),
+        ("Clarity throughout", "A fixed quote before work begins, a timeline you can rely on, and advance notice before anything affects scope."),
     ]
     pr = "".join(f'<article class="principle reveal"><h3>{E(t)}</h3><p>{E(d)}</p></article>' for t, d in principles)
     stack = ["HTML", "CSS", "JavaScript", "Firebase", "Firestore", "Cloudflare Workers", "Cloudflare R2", "Stripe", "GitHub Pages", "Formspree", "Claude API"]
     st = "".join(f"<li>{E(s)}</li>" for s in stack)
-    return head("About | Hafeez Oyeneyin", "One builder, a direct line. How I design and build websites.", "about.html", pv) + header("about.html") + f"""
+    return head("About | Hafeez Oyeneyin", "A direct line to the builder: how I design and engineer bespoke websites.", "about.html", pv) + header("about.html") + f"""
 <main id="main">
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">About</p>
-      <h1 class="display">You work with <em>me, directly</em></h1>
-      <p class="intro">I'm Hafeez, a software engineer. I design and code every site myself, and you talk to me from the first call through launch day and after, wherever you're based.</p>
+      <h1 class="display">A direct line to <em>the builder</em></h1>
+      <p class="intro">I'm Hafeez, a software engineer. I design and engineer every site personally, and you work directly with me from the first conversation through launch and beyond, wherever you're based.</p>
     </div>
   </section>
   <section class="section">
     <div class="wrap">
-      <div class="section-head reveal"><div><p class="eyebrow">Principles</p><h2 class="display">How I work</h2></div></div>
+      <div class="section-head reveal"><div><p class="eyebrow">Principles</p><h2 class="display">How I <em>work</em></h2></div></div>
       <div class="principles">{pr}</div>
     </div>
   </section>
   <section class="section">
     <div class="wrap two-col reveal">
-      <div><p class="eyebrow">Stack</p><h2 class="display">What I build with</h2></div>
+      <div><p class="eyebrow">Stack</p><h2 class="display">The <em>toolkit</em></h2></div>
       <div>
-        <div class="prose"><p>Plain, fast web code on the front end, and proven services behind it for logins, data, payments and file storage. No heavy frameworks unless a project needs one.</p></div>
+        <div class="prose"><p>Lean, fast front-end code, supported by proven infrastructure for accounts, data, payments and storage. Heavier frameworks are used only when a project calls for them.</p></div>
         <ul class="stack">{st}</ul>
       </div>
     </div>
@@ -849,13 +899,13 @@ def page_about(pv):
 
 def page_contact(pv):
     em, ph = CONFIG["email"], CONFIG["phone"]
-    return head("Contact | Hafeez Oyeneyin", "Start a project. Tell me what you're building and I'll reply within two business days.", "contact.html", pv) + header("contact.html") + f"""
+    return head("Contact | Hafeez Oyeneyin", "Begin your project. Share a few details and receive a reply within two business days.", "contact.html", pv) + header("contact.html") + f"""
 <main id="main">
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">Contact</p>
-      <h1 class="display">Tell me what you're <em>building</em></h1>
-      <p class="intro">Send the details and I'll get back to you within two business days to set up a free 15-minute call.</p>
+      <h1 class="display">Let's discuss your <em>project</em></h1>
+      <p class="intro">Share a few details and you'll receive a reply within two business days to arrange a complimentary 15-minute consultation.</p>
     </div>
   </section>
   <section class="section">
@@ -867,9 +917,9 @@ def page_contact(pv):
         </div>
         <p class="side-label">What happens next</p>
         <ol class="next-steps">
-          <li><b>I read your message</b><span>and reply within two business days.</span></li>
-          <li><b>We have a free 15-minute call</b><span>about what you do and what the site needs to handle.</span></li>
-          <li><b>You get a fixed quote</b><span>and a timeline, before any work starts.</span></li>
+          <li><b>Your inquiry is reviewed</b><span>with a reply within two business days.</span></li>
+          <li><b>A complimentary consultation</b><span>to discuss your business and what the site must accomplish.</span></li>
+          <li><b>A fixed-price proposal</b><span>with a clear timeline, before any work begins.</span></li>
         </ol>
       </div>
       <form class="intake reveal" id="intake" data-email="{E(em)}" novalidate>
@@ -880,12 +930,12 @@ def page_contact(pv):
         <div class="field"><label for="f-org">Business or organization</label><input id="f-org" name="organization" autocomplete="organization"></div>
         <div class="field"><label for="f-site">Current website, if you have one</label><input id="f-site" name="current_site" inputmode="url" placeholder="example.com"></div>
         <fieldset class="field">
-          <legend>What do you need?</legend>
+          <legend>What are you looking for?</legend>
           <div class="chips">
             <label class="chip"><input type="radio" name="project_type" id="t-new" value="New website"><span>New website</span></label>
-            <label class="chip"><input type="radio" name="project_type" id="t-redo" value="Redesign of an existing site"><span>Redesign my current site</span></label>
+            <label class="chip"><input type="radio" name="project_type" id="t-redo" value="Redesign of an existing site"><span>Redesign of an existing site</span></label>
             <label class="chip"><input type="radio" name="project_type" id="t-custom" value="Admin portal, bookings or payments"><span>Admin portal, bookings or payments</span></label>
-            <label class="chip"><input type="radio" name="project_type" id="t-unsure" value="Not sure yet"><span>Not sure yet</span></label>
+            <label class="chip"><input type="radio" name="project_type" id="t-unsure" value="Still exploring"><span>Still exploring</span></label>
           </div>
         </fieldset>
         <fieldset class="field">
@@ -899,7 +949,7 @@ def page_contact(pv):
           </div>
         </fieldset>
         <div class="field">
-          <label for="f-when">When do you need it?</label>
+          <label for="f-when">Ideal timeline</label>
           <select id="f-when" name="timeline">
             <option value="">Choose one</option>
             <option>As soon as possible</option>
@@ -908,10 +958,10 @@ def page_contact(pv):
             <option>Just exploring</option>
           </select>
         </div>
-        <div class="field"><label for="f-msg">Tell me about the project</label><textarea id="f-msg" name="message" placeholder="What you do, what the site needs to handle, sites you like…"></textarea></div>
+        <div class="field"><label for="f-msg">Project details</label><textarea id="f-msg" name="message" placeholder="Your business, what the site should accomplish, and any sites you admire…"></textarea></div>
         <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="form-foot">
-          <button class="btn btn-primary" type="submit" id="f-submit">Send project details <span class="arr" aria-hidden="true">→</span></button>
+          <button class="btn btn-primary" type="submit" id="f-submit">Send inquiry <span class="arr" aria-hidden="true">→</span></button>
           <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </div>
       </form>
