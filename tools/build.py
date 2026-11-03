@@ -554,7 +554,10 @@ def page_home(pv):
   <section class="clients" aria-label="Clients">
     <div class="wrap">
       <p>Recent sites, each built from scratch</p>
-      <ul class="client-list">{clients}</ul>
+      <div class="client-viewport"><div class="client-track">
+        <ul class="client-list">{clients}</ul>
+        <ul class="client-list dup" aria-hidden="true">{clients.replace('<a ', '<a tabindex="-1" ')}</ul>
+      </div></div>
     </div>
   </section>
 

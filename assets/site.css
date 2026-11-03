@@ -139,6 +139,22 @@ a { color: inherit; }
 .cl-nextgen { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.2rem; letter-spacing: -0.02em; }
 .cl-timber { font-family: "Inter", sans-serif; font-weight: 800; font-size: 1rem; letter-spacing: -0.03em; }
 .cl-tipsy { font-family: "Boogaloo", cursive; font-size: 1.35rem; }
+.client-viewport { min-width: 0; }
+.client-list.dup { display: none; }
+/* Phones and tablets: one continuous, slowly scrolling row instead of uneven wrapped lines */
+@media (max-width: 860px) {
+  .client-viewport { overflow: hidden; margin-inline: calc(-1 * max(20px, env(safe-area-inset-left, 0px))); -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+  .client-track { display: flex; width: max-content; animation: clients 26s linear infinite; }
+  .client-list, .client-list.dup { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 0 40px; padding-right: 40px; }
+  .client-list li { flex: none; }
+}
+@keyframes clients { to { transform: translateX(-50%); } }
+@media (max-width: 860px) and (prefers-reduced-motion: reduce) {
+  .client-viewport { overflow: visible; margin-inline: 0; -webkit-mask-image: none; mask-image: none; }
+  .client-track { width: auto; display: block; }
+  .client-list { flex-wrap: wrap; gap: 14px 28px; padding-right: 0; }
+  .client-list.dup { display: none; }
+}
 @media (max-width: 860px) { .clients .wrap { grid-template-columns: minmax(0, 1fr); } .client-list { justify-content: flex-start; } }
 
 /* ---------- Page hero (inner pages) ---------- */

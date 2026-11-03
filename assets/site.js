@@ -1,6 +1,6 @@
 (function () {
   // ===== Edit these =====
-  var FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";   // from formspree.io
+  var FORM_ENDPOINT = "https://formspree.io/f/xvkkdgel";       // Formspree: "Portfolio – Start a project"
   var ROTATING = [                                              // home headline; keep each under ~12 characters
     { text: "from scratch", color: "var(--flare)" },
     { text: "to load fast", color: "var(--ion)" },
